@@ -1,8 +1,7 @@
 ## Flight Price Prediction App - PriceVoyager
 
 This repository contains the code for a Streamlit app called PriceVoyager, which predicts flight prices based on various factors.
-
-[Image of Airplane](https://feeds.abplive.com/onecms/images/uploaded-images/2021/09/08/634259599cd6f60c24f9e67a5680c064_original.jpg)
+![image](https://github.com/user-attachments/assets/5b13bd0d-a6b8-427f-87ae-cc0f9d3d35ea)
 
 ### Description
 
