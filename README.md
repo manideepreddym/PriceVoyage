@@ -1,7 +1,8 @@
 ## Flight Price Prediction App - PriceVoyager
 
-This repository contains the code for a Streamlit app called PriceVoyager, which predicts flight prices based on various factors. 
-!https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.kaggle.com%2Fcode%2Fvarunsaikanuri%2Fflight-fare-prediction-10-ml-models&psig=AOvVaw3zrwHCEZI-QyYTnrv7pe5o&ust=1721509305522000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJjLn4uAtIcDFQAAAAAdAAAAABAE
+This repository contains the code for a Streamlit app called PriceVoyager, which predicts flight prices based on various factors.
+
+[Image of Airplane](https://feeds.abplive.com/onecms/images/uploaded-images/2021/09/08/634259599cd6f60c24f9e67a5680c064_original.jpg)
 
 ### Description
 
