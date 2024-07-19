@@ -13,3 +13,11 @@ A Streamlit app that predicts flight prices based on various features such as ai
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/flight-price-prediction-app.git
+
+cd flight-price-prediction-app
+
+#Install the required packages:
+pip install -r requirements.txt
+
+#Run the Streamlit app:
+streamlit run app.py
