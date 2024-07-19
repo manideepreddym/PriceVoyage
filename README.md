@@ -1,6 +1,11 @@
-## Flight Price Prediction App - PriceVoyager
+**Flight Price Prediction App (PriceVoyager)**
 
-This repository contains the code for a Streamlit app called PriceVoyager, which predicts flight prices based on various factors.
+This project focuses on building a machine learning model that predicts flight prices based on various factors.  
+
+The deployed Streamlit app allows you to interact with the model and get real-time flight price estimates. 
+
+**Try it out!** [PriceVoyager](https://pricevoyage-manideep.streamlit.app/)
+
 ![image](https://github.com/user-attachments/assets/5b13bd0d-a6b8-427f-87ae-cc0f9d3d35ea)
 
 ### Description
@@ -63,8 +68,7 @@ The project is organized as follows:
 
 ### Authors
 
-* Manideep Reddy Mandhadi (or your name/team name)
-
+* Manideep Reddy Mandhadi
 ### Disclaimer
 
 The provided Random Forest model is for demonstration purposes only and may not achieve optimal accuracy on unseen data. Consider retraining the model with your own dataset for improved performance.
