@@ -4,7 +4,7 @@ import numpy as np
 from datetime import datetime, time
 
 # Load the trained model
-with open('/workspaces/PriceVoyage/files/rf_random.pkl', 'rb') as file:
+with open('./files/rf_random.pkl', 'rb') as file:
     model = pickle.load(file)
 
 # Airline and destination mappings
