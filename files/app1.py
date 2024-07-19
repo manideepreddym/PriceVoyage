@@ -84,3 +84,4 @@ if submit_button:
         # Predict the price
         predicted_price = predict_price(example_features)
         st.write(f"✈️ The predicted price for {airline} with {total_stops} stop(s) to {destination} from {source} is ₹{predicted_price[0]:,.2f} INR.")
+    st.caption("Created by Manideep Reddy")
