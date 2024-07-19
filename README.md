@@ -1,2 +1,15 @@
 # PriceVoyage
-To build a machine learning model that effectively analyzes historical flight data to identify patterns and trends, ultimately predicting flight prices with a high degree of accuracy.
+# Flight Price Prediction App
+
+## Description
+A Streamlit app that predicts flight prices based on various features such as airline, source, destination, departure time, and more.
+
+## Features
+- Predicts flight prices using a pre-trained RandomForest model.
+- User-friendly interface to input flight details.
+- Displays predicted price in INR.
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/flight-price-prediction-app.git
