@@ -16,8 +16,8 @@ A Streamlit app that predicts flight prices based on various features such as ai
 
 cd flight-price-prediction-app
 
-#Install the required packages:
+# Install the required packages:
 pip install -r requirements.txt
 
-#Run the Streamlit app:
+# Run the Streamlit app:
 streamlit run app.py
