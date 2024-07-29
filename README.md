@@ -1,74 +1,124 @@
-**Flight Price Prediction App (PriceVoyager)**
+# Flight Price Prediction App (PriceVoyager)
 
-This project focuses on building a machine learning model that predicts flight prices based on various factors.  
+## Introduction
 
-The deployed Streamlit app allows you to interact with the model and get real-time flight price estimates. 
+**PriceVoyager** is a machine learning application designed to predict flight prices based on various factors. By utilizing a pre-trained Random Forest model, the app provides real-time flight price estimates, helping users make informed decisions and potentially save money on air travel.
 
 **Try it out!** [PriceVoyager](https://pricevoyage-manideep.streamlit.app/)
 
-![image](https://github.com/user-attachments/assets/5b13bd0d-a6b8-427f-87ae-cc0f9d3d35ea)
+![Flight Price Prediction App](https://github.com/user-attachments/assets/5b13bd0d-a6b8-427f-87ae-cc0f9d3d35ea)
 
-### Description
+### Project Overview
 
-PriceVoyager helps users make informed decisions and potentially save money on air travel by predicting flight prices. It utilizes a pre-trained Random Forest model to analyze historical flight data and identify patterns influencing price. 
+PriceVoyager leverages machine learning to analyze historical flight data and identify patterns influencing flight prices. The app features a user-friendly interface that allows users to input flight details and receive predicted prices in INR. It aims to assist travelers and travel agencies by providing insights into future flight costs.
 
-### Features
+### Expected Outcomes
 
-* User-friendly interface for entering flight details.
-* Predicts flight prices using a trained Random Forest model.
-* Displays the predicted price in INR.
+- **Informed Decisions**: Users can make better booking decisions based on predicted flight prices.
+- **Cost Savings**: Potential to save money by booking flights at optimal times.
+- **Data-Driven Insights**: Provides insights into factors affecting flight prices.
 
-### Technologies Used
+## Data Collection
 
-* Python
-* Streamlit
-* Scikit-learn
-* Pandas
+### Source
 
-### Installation
+The model uses historical flight data, including features such as:
 
-1. **Clone the repository:**
+- **Airline**
+- **Source**
+- **Destination**
+- **Departure Time**
+- **Arrival Time**
+- **Price**
 
-```bash
-git clone https://github.com/yourusername/flight-price-prediction-app.git
-```
+### Data Description
 
-2. **Navigate to the project directory:**
+- **Features**: Information on various aspects of flight bookings.
+- **Target**: Flight price in INR.
 
-```bash
-cd flight-price-prediction-app
-```
+## Data Preprocessing
 
-3. **Install required dependencies:**
+### Steps
 
-```bash
-pip install -r requirements.txt
-```
+- **Data Cleaning**: Removing or imputing missing values.
+- **Feature Engineering**: Creating new features to improve model performance.
+- **Normalization**: Scaling numerical features for better model accuracy.
 
-4. **Run the Streamlit app:**
+## Model Development
 
-```bash
-streamlit run app.py
-```
+### Algorithm
 
-### Usage
+- **Random Forest**: Utilized for predicting flight prices based on historical data.
 
-1. Open http://localhost:8501/ in your web browser.
-2. Enter the flight details in the user interface.
-3. Click "Predict Price" to get the estimated flight price.
+### Evaluation Metrics
 
-### Project Structure
+- **Mean Absolute Error (MAE)**
+- **Root Mean Squared Error (RMSE)**
 
-The project is organized as follows:
+### Training
 
-* `app.py`: Contains the Streamlit app logic for user interaction, data processing, and prediction.
-* `data`: (Optional) May contain the flight data used for training the model.
-* `model.pkl`: The saved Random Forest model file used for prediction.
-* `requirements.txt`: Lists the required Python libraries.
+- **Train-Test Split**: Data was split into training and testing sets to evaluate model performance.
 
-### Authors
+## Deployment
 
-* Manideep Reddy Mandhadi
-### Disclaimer
+### Strategy
 
-The provided Random Forest model is for demonstration purposes only and may not achieve optimal accuracy on unseen data. Consider retraining the model with your own dataset for improved performance.
+- **Streamlit**: The app is deployed using Streamlit for real-time predictions.
+
+### Platform
+
+- **Streamlit Cloud**: Accessible via the provided [PriceVoyager link](https://pricevoyage-manideep.streamlit.app/).
+
+### Security
+
+- **Access Control**: The app is publicly accessible but does not handle sensitive data.
+
+## Recommendations & Insights
+
+### Target Audience
+
+- **Travelers**: Individuals booking flights and seeking cost-effective options.
+- **Travel Agencies**: Businesses providing value-added services to clients.
+- **Data Science Enthusiasts**: Individuals interested in machine learning applications.
+
+### Process
+
+- **User Interaction**: Enter flight details to receive price predictions.
+- **Recommendations**: Based on predicted prices and historical trends.
+
+## Challenges
+
+1. **Data Quality**: Handling missing or incomplete data which required extensive cleaning and imputation.
+2. **Feature Selection**: Identifying the most relevant features that significantly impact flight prices.
+3. **Model Accuracy**: Ensuring the Random Forest model provides accurate predictions and generalizes well to unseen data.
+
+## What We Learned
+
+1. **Importance of Data Quality**: Clean and well-prepared data is crucial for building accurate predictive models.
+2. **Feature Engineering**: Effective feature engineering can significantly enhance model performance.
+3. **User Interaction**: Building an intuitive and user-friendly interface improves the usability of the app.
+
+## Future Work
+
+1. **Integration with Real-Time Data**: Incorporate live weather and flight data to enhance prediction accuracy.
+2. **User Interface Enhancements**: Develop a more interactive and feature-rich web or mobile app.
+3. **Advanced Modeling Techniques**: Explore advanced machine learning models and techniques to further improve prediction accuracy.
+4. **Extended Functionality**: Add features like price trend analysis, booking recommendations, and alert notifications for price changes.
+
+
+## Contributing
+
+Contributions are welcome! If you have suggestions or improvements, please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- **Data Sources**: Historical flight data used for model training.
+- **Libraries and Tools**: Python, Streamlit, Scikit-learn, Pandas
+
+## Contact
+
+For any inquiries or further information, please contact [Manideep Reddy](mailto:manideepreddy966@gmail.com).
